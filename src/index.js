@@ -18,16 +18,18 @@ class Alarms {
       template.Resources[alarm] = {
         Type:'AWS::CloudWatch::Alarm',
         Properties:{
-          AlarmName: element.alarmName,
-          AlarmDescription: element.alarmDescription,
           ActionEnabled: element.alarmEnabled,
           AlarmActions: element.alarmActions,
-          EvaluationPeriods: element.evaluationPeriods,
-          DatapointsToAlarm: element.datapointsToAlarm,
-          Threshold: element.threshold,
+          AlarmDescription: element.alarmDescription,
+          AlarmName: element.alarmName,
           ComparisonOperator: element.comparisonOperator,
-          TreatMissingData: element.treatMissingData,
-          Metrics: element.metrics
+          DatapointsToAlarm: element.datapointsToAlarm,
+          EvaluationPeriods: element.evaluationPeriods,
+          InsufficientDataActions: element.insufficientDataActions,
+          Metrics: element.metrics,
+          OKActions: element.oKActions,
+          Threshold: element.threshold,
+          TreatMissingData: element.treatMissingData
         }
       }
     } 
