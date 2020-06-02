@@ -1,8 +1,14 @@
 # serverless-plugin-aws-alarm
 
-This plugin allows to use serverless framework to deploy alarm for AWS CloudWatch.
+This plugin allows to use serverless framework to deploy alarms of MetricDataQuery for AWS CloudWatch.
 
 To use this plugin, please specify the following
+
+Disclaimer: This tool only allows the integration of MetricDataQuery feature with serverless framework, please refer to the following documentations for the technical detail on cloudformation and cloudwatch
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-alarmactions
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_PutMetricAlarm.html
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDataQuery.html
 
 ```
 plugins:
