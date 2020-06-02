@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/kangcifong/serverless-plugin-aws-alarm-metric-data-query/issues"
   },
+  "dependencies": {
+    "aws-sdk": "^2.642.0",
+    "lodash": "^4.17.15"
+  },
   "homepage": "https://github.com/kangcifong/serverless-plugin-aws-alarm-metric-data-query#readme"
 }

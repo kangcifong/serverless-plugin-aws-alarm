@@ -14,7 +14,6 @@ class Alarms {
     for(const alarm in this.config){
 
       var element = this.config[alarm]
-      console.log(element.metrics);
       template.Resources[alarm] = {
         Type:'AWS::CloudWatch::Alarm',
         Properties:{
