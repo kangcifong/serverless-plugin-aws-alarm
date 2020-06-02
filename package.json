@@ -1,0 +1,22 @@
+{
+  "name": "serverless-plugin-aws-alarm",
+  "version": "0.0.1",
+  "description": "CloudWatch Alarm with support of MetricDataQuery",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangcifong/serverless-plugin-aws-alarm.git"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "Kang Cifong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kangcifong/serverless-plugin-aws-alarm/issues"
+  },
+  "homepage": "https://github.com/kangcifong/serverless-plugin-aws-alarm#readme"
+}
